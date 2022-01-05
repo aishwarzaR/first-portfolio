@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
     
 }
 h1{
@@ -19,13 +20,41 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .half-width img{
     width: 80%;
     padding-top: 80px;
     padding-left: 50px;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.dream{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
+    
+}
+.link{
+    color: #fff;
+    background-image: linear-gradient(green,yellow);
+    font-family: "Tahoma";
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px 5px;
+  display: inline-block;
+  margin-top: 10px;
+ border-radius: 5px;
+  
+    
+    
+    
 }
